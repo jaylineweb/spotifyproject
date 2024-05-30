@@ -48,7 +48,7 @@ body{font-size:16px;font-family:spotify-circular, Helvetica, Arial, sans-serif;}
 @media all and (max-width:1400px){
     .header{height:calc(100vw * (80 / 1400));}
     .header .logo{width:calc(100vw * (132 / 1400));}
-    .header .logo a{height:calc(100vw * (80 / 1400));padding-top:calc(100vw * (9 / 1400));}
+    .header .logo a{height:calc(100vw * (80 / 1400));padding-top:calc(100vw * (18 / 1400));}
     .navigator .navigator-item{padding:calc(100vw * (28 / 1400)) calc(100vw * (17 / 1400));line-height:calc(100vw * (21 / 1400));}
     .main{min-height:calc(100vw * (968 / 1400));}
     .main_con_title{font-size:calc(100vw * (147 / 1400));line-height:calc(100vw * (140 / 1400));left:calc(100vw * (250 / 1400));}
@@ -58,7 +58,7 @@ body{font-size:16px;font-family:spotify-circular, Helvetica, Arial, sans-serif;}
 @media all and (max-width:1240px){
     .header{height:calc(100vw * (80 / 1240));}
     .header .logo{width:calc(100vw * (132 / 1240));}
-    .header .logo a{height:calc(100vw * (80 / 1240));padding-top:calc(100vw * (9 / 1240));}
+    .header .logo a{height:calc(100vw * (80 / 1240));padding-top:calc(100vw * (18 / 1240));}
     .navigator .navigator-item{padding:calc(100vw * (28 / 1240)) calc(100vw * (17 / 1240));line-height:calc(100vw * (21 / 1240));}
     .main{min-height:calc(100vw * (968 / 1240));}
     .main_con_title{font-size:calc(100vw * (147 / 1240));line-height:calc(100vw * (140 / 1240));left:calc(100vw * (250 / 1240));}
@@ -68,7 +68,7 @@ body{font-size:16px;font-family:spotify-circular, Helvetica, Arial, sans-serif;}
 @media all and (max-width:1000px){
     .header{height:calc(100vw * (80 / 1000));}
     .header .logo{width:calc(100vw * (132 / 1000));}
-    .header .logo a{height:calc(100vw * (80 / 1000));padding-top:calc(100vw * (9 / 1000));}
+    .header .logo a{height:calc(100vw * (80 / 1000));padding-top:calc(100vw * (18 / 1000));}
     .navigator .navigator-item{padding:calc(100vw * (28 / 1000)) calc(100vw * (17 / 1000));line-height:calc(100vw * (21 / 1000));}
     .main{min-height:calc(100vw * (968 / 1000));}
     .main_con_title{font-size:calc(100vw * (100 / 1000));line-height:calc(100vw * (120 / 1000));left:calc(100vw * (167 / 1000));}
