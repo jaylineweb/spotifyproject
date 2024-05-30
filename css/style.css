@@ -46,7 +46,20 @@ body{font-size:16px;font-family:spotify-circular, Helvetica, Arial, sans-serif;}
 .second_content .sns_icon:not(:first-child){margin-left:16px;}
 
 @media all and (max-width:1400px){
-    .main{min-height:calc(100vw * (968 / 1400));background:#2941ab url(../img/main/bursts.svg) no-repeat;background-size:175%;background-position:46% 4%;}
-    .main_con_title{font-size:calc(100vw * (147 / 1400));font-weight:800;line-height:calc(100vw * (140 / 1400));left:calc(100vw * (250 / 1400));}
+    .main{min-height:calc(100vw * (968 / 1400));}
+    .main_con_title{font-size:calc(100vw * (147 / 1400));line-height:calc(100vw * (140 / 1400));left:calc(100vw * (250 / 1400));}
     .main_con .sub_text{font-size:calc(100vw * (18 / 1400));line-height:calc(100vw * (26 / 1400));}
+    .main_con .link{padding:calc(100vw * (14 / 1400)) calc(100vw * (32 / 1400));border-radius:calc(100vw * (30 / 1400));}
+}
+@media all and (max-width:1240px){
+    .main{min-height:calc(100vw * (968 / 1240));}
+    .main_con_title{font-size:calc(100vw * (147 / 1240));line-height:calc(100vw * (140 / 1240));left:calc(100vw * (250 / 1240));}
+    .main_con .sub_text{font-size:calc(100vw * (18 / 1240));line-height:calc(100vw * (26 / 1240));}
+    .main_con .link{padding:calc(100vw * (14 / 1240)) calc(100vw * (32 / 1240));border-radius:calc(100vw * (30 / 1240));}
+}
+@media all and (max-width:1000px){
+    .main{min-height:calc(100vw * (968 / 1000));}
+    .main_con_title{font-size:calc(100vw * (147 / 1000));line-height:calc(100vw * (140 / 1000));left:calc(100vw * (250 / 1000));}
+    .main_con .sub_text{font-size:calc(100vw * (18 / 1000));line-height:calc(100vw * (26 / 1000));}
+    .main_con .link{padding:calc(100vw * (14 / 1000)) calc(100vw * (32 / 1000));border-radius:calc(100vw * (30 / 1000));}
 }
