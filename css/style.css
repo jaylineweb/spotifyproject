@@ -28,9 +28,9 @@ body{font-size:16px;font-family:spotify-circular, Helvetica, Arial, sans-serif;}
 .main_con .link:hover{transform:scale(1.07);background-color:#2de26d;}
 
 /**************************************************** footer ****************************************************/
-.footer{display:flex;justify-content:center;align-items:center;background-color:#000000;}
-.footer_wrap{display:flex;justify-content:space-around;width:100%;max-width:1170px;}
-.footer_menu{display:flex;justify-content:space-between;width:100%;padding:80px 0 50px;}
+.footer{background-color:#000000;}
+.footer_content{display:block;width:100%;max-width:1170px;margin-right:auto;margin-left:auto;}
+.footer_menu{display:flex;justify-content:space-between;width:100%;padding: 51.6px 0 125.4px;}
 .first_content{display:flex;gap:40px;}
 .footer .footer_logo{line-height:93px;width:132px;}
 .footer .footer_logo img{max-width:100%;}
@@ -44,7 +44,15 @@ body{font-size:16px;font-family:spotify-circular, Helvetica, Arial, sans-serif;}
 .second_content .sns_icon{display:flex;width:54px;height:54px;border-radius:50%;background-color:#222322;justify-content:center;align-items:center;font-size:21px;}
 .second_content .sns_icon i{}
 .second_content .sns_icon:not(:first-child){margin-left:16px;}
+.sub_menu{display:flex;justify-content:space-between;margin-top:13px;}
+.copyright{width:100%;max-width:1170px;margin-right:auto;margin-left:auto;}
+.copyright .global{text-align:right;font-size:12px;color:#919496;}
+.link{padding:0px 0 63.6px 0;}
+.link .link_item{display:inline-block;color:#919496;}
+.link .link_item:not(:first-child){margin-left:24px;}
+.link .link_item:hover{color:#1ed760;}
 
+.copyright_text{color:#919496;}
 @media all and (max-width:1400px){
     .header{height:calc(100vw * (80 / 1400));}
     .header .logo{width:calc(100vw * (132 / 1400));}
@@ -54,7 +62,7 @@ body{font-size:16px;font-family:spotify-circular, Helvetica, Arial, sans-serif;}
     .main_con_title{font-size:calc(100vw * (147 / 1400));line-height:calc(100vw * (140 / 1400));left:calc(100vw * (250 / 1400));}
     .main_con .sub_text{font-size:calc(100vw * (18 / 1400));line-height:calc(100vw * (26 / 1400));}
     .main_con .link{padding:calc(100vw * (14 / 1400)) calc(100vw * (32 / 1400));border-radius:calc(100vw * (30 / 1400));}
-    .footer_wrap{max-width:calc(100vw * (1200 / 1400));}
+    .footer_content{max-width:calc(100vw * (1200 / 1400));}
     .footer .footer_logo{line-height:calc(100vw * (93 / 1400));width:calc(100vw * (132 / 1400));}
     .footer .info .info_item{padding:0 calc(100vw * (15 / 1400));}
     .footer .info .info_item h4{margin:calc(100vw * (20 / 1400));}
@@ -72,7 +80,7 @@ body{font-size:16px;font-family:spotify-circular, Helvetica, Arial, sans-serif;}
     .main_con_title{font-size:calc(100vw * (147 / 1240));line-height:calc(100vw * (140 / 1240));left:calc(100vw * (250 / 1240));}
     .main_con .sub_text{font-size:calc(100vw * (18 / 1240));line-height:calc(100vw * (26 / 1240));}
     .main_con .link{padding:calc(100vw * (14 / 1240)) calc(100vw * (32 / 1240));border-radius:calc(100vw * (30 / 1240));}
-    .footer_wrap{max-width:calc(100vw * (970 / 1200));}
+    .footer_content{max-width:calc(100vw * (970 / 1200));}
     .footer .footer_logo{line-height:calc(100vw * (93 / 1240));width:calc(100vw * (132 / 1240));}
     .footer .info .info_item{padding:0 calc(100vw * (15 / 1240));}
     .footer .info .info_item h4{margin:calc(100vw * (20 / 1240));}
@@ -91,8 +99,8 @@ body{font-size:16px;font-family:spotify-circular, Helvetica, Arial, sans-serif;}
     .main_con_title{font-size:calc(100vw * (100 / 1000));line-height:calc(100vw * (120 / 1000));left:calc(100vw * (167 / 1000));}
     .main_con .sub_text{font-size:calc(100vw * (18 / 1000));line-height:calc(100vw * (26 / 1000));}
     .main_con .link{padding:calc(100vw * (14 / 1000)) calc(100vw * (32 / 1000));border-radius:calc(100vw * (30 / 1000));}
-    .footer_wrap{max-width:calc(100vw * (940 / 1000));}
-    .footer_menu{padding:calc(100vw * (80 / 1000)) 0 calc(100vw * (50 / 1000));flex-direction: column;}
+    .footer_content{max-width:calc(100vw * (940 / 1000));}
+    .footer_menu{padding:calc(100vw * (80 / 1000)) 0 calc(100vw * (50 / 1000));flex-direction:column;}
     .first_content{gap:calc(100vw * (20 / 1000));}
     .footer .footer_logo{line-height:calc(100vw * (93 / 1000));width:calc(100vw * (132 / 1000));}
     .footer .info{gap:calc(100vw * (20 / 1000));}
