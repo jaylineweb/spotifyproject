@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body{margin:0;padding:0;font-family:spotify-circular, Helvetica, Arial, sans-serif;color:#ffffff;}
+
+a{color:#ffffff;text-decoration:none;}
+a:hover{color:#1ed760;}
+
+.skip{overflow:hidden;position:absolute;width:1px;height:1px;font-size:0;line-height:0;}
+
+/* header 영역 */
+.nav{display:flex;align-items:center;justify-content:space-around;height:80px;background-color:#000000;}
+.nav .nav-item{padding:28px 17px;font-weight:700;transition:color 0.4s ease;}
+/* .nav a:hover{color:#1ed760;} */
+/* main 영역 */
+.main{display:flex;justify-content:center;align-items:center;height:969px;background:#2941ab url(../image/bursts.svg) 46% 4%;}
+
+.main-container{
+}
+.headline{padding-bottom:40px;position:relative;left:220px;font-size:146px;line-height:166px;color:#1ed760;font-weight:900;text-align:center;}
+.headline-first{position:relative;left:-2.5em;}
+
+.sub-headline{padding-bottom:40px;color:#1ed760;text-align:center;}
+
+/* button */
+.button-area{text-align:center;}
+.button-style{display:inline-block;padding:14px 32px;border:0;border-radius:500px;background-color:#1ed760;font-size:inherit;font-weight:700;color:#2941ab;}
+.button-style:hover{transform:scale(1.07);background-color:#2de26d;}
+
+/* footer 영역 */
+.footer{height:auto;background-color:#000000;}
+.footer_logo img{margin-top:6px;}
+.footer_entity{padding-top:80px;padding-bottom: 54.4px;}
+.footer_entity  .first_line{
+    display:flex;
+    justify-content:space-between;
+    width:100%;max-width:1170px;margin:0 auto 101.4px;
+}
+.footer_entity .second_line{
+    width:100%;
+    max-width:1170px;
+    margin:60px auto 0;
+}
+.left_part{}
+[class*="_part"].flex,.footer_menu{display:flex;gap:30px;}
+.footer_menu{}
+.footer_menu dl{margin:0;}
+.footer_menu dt{display:block;margin:20px 0;font-weight:900;color:#919496;}
+.footer_menu dd{display:block;margin:0;padding-bottom:15px;padding-top:3px;font-size:16px;transition:color 300ms ease-in;cursor:pointer;}
+.footer_menu dd:hover{color:#1ed760;}
+
+.right_part{margin-top:20px;}
+.icon_list{display:flex;gap:15px;}
+.icon_list .icon{width:54px;height:54px;border-radius:50%;background-color:#222322;font-size:24px;line-height:54px;text-align:center;}
+
+.global{text-align:right;}
+.shortcut{display:flex;justify-content:space-between;margin-top:13px;}
+.shortcut .shortcut_link{font-size:16px;color:#919496;}
+.shortcut .shortcut_link:not(:first-child){margin-left:24px;}
+.shortcut div:nth-child(2){font-size:16px;color:#919496;}
