@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Spotify Circular', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 15%;
+}
+
+.intro .title {
+    font-size: 3.375rem;
+    line-height: 5.5rem;
+    color: #333;
+}
+
+.intro .homework {
+    margin-top: 2rem;
+}
+
+.intro .homework .homework_link {
+    display: block;
+    width: 80%;
+    max-width: 454px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #d9d9d9;
+    font-size: 1.8125rem;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 300ms ease-in;
+    border-radius: 5px;
+}
+
+.intro .homework .homework_link:nth-child(2) {
+    background-color: #30d3ac;
+}
+
+.intro .homework .homework_link:hover {
+    background-color: #818181;
+}
+
+.intro .homework .homework_link:nth-child(2):hover {
+    background-color: #1da222;
+}
+
+@media (max-width: 1200px) {
+    .intro .title {
+        padding-top: 20%;
+        font-size: 2.8125rem;
+        line-height: 4.5rem;
+    }
+
+    .intro .homework .homework_link {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro .title {
+        padding-top: 25%;
+        font-size: 2.25rem;
+        line-height: 3.5rem;
+    }
+
+    .intro .homework .homework_link {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro .title {
+        padding-top: 30%;
+        font-size: 1.75rem;
+        line-height: 3rem;
+    }
+
+    .intro .homework .homework_link {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,136 @@
+/* 전체적인 디자인 통일성을 위한 기본 스타일 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin: 0.5em 0;
+}
+
+p {
+    line-height: 1.6;
+    margin: 1em 0;
+}
+
+/* 반응형 디자인을 위한 미디어 쿼리 */
+@media (max-width: 768px) {
+    body {
+        padding: 1em;
+    }
+
+    .container {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 0.5em 0;
+    }
+}
+
+/* 네비게이션 스타일 */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+/* 버튼 스타일 */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.75em 1.5em;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 기능 섹션 스타일 */
+.feature-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-button .btn {
+    width: 80%;
+    padding: 1em;
+    margin: 1em 0;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.feature-button .alone {
+    background-color: #d3d3d3;
+}
+
+.feature-button .lecture {
+    background-color: #20c997;
+}
+
+/* 콘텐츠 섹션 스타일 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.section {
+    margin-bottom: 2em;
+}
+
+/* 푸터 스타일 */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* 퍼포먼스 최적화 - 이미지 및 스크립트 최적화 예시 */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

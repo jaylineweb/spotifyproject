@@ -7,6 +7,19 @@ li{list-style-type:none;}
 html,body{overflow-x:hidden;margin:0;padding:0;}
 body{font-size:16px;font-family:spotify-circular, Helvetica, Arial, sans-serif;}
 
+@keyframes backgroundSize {
+
+    0%{
+        background-size:175%
+    }
+    50%{
+        background-size:195%;
+    }
+    100%{
+        background-size:175%;
+    }
+}
+
 .intro{}
 .intro .title{padding-top:247px;font-size:54px;line-height:88px;text-align:center;}
 .intro .homework{margin-top:67px;}
@@ -60,13 +73,18 @@ body{font-size:16px;font-family:spotify-circular, Helvetica, Arial, sans-serif;}
 .navigator a:hover{color:#1ed760;}
 
 /**************************************************** main ****************************************************/
-.main{display:flex;justify-content:center;align-items:center;min-height:968px;background:#2941ab url(../img/main/bursts.svg) no-repeat;background-size:175%;background-position:46% 4%;}
+.main{display:flex;justify-content:center;align-items:center;min-height:968px;background:#2941ab url(../img/main/bursts.svg) no-repeat;background-size:175%;background-position:46% 4%;animation:backgroundSize 3000ms forwards;}
 .main_con{display:flex;flex-direction:column;align-items:center;gap:40px;}
 .main_con_title{position:relative;font-size:9.1875rem;font-weight:800;line-height:140px;color:#1ed760;left:250px;}
 .main_con_title span{display:block;}
-.main_con_title .title1{position:relative;left:-2.5em;}
-.main_con .sub_text{font-size:18px;color:#1ed760;line-height:26px;}
-.main_con .link{padding:14px 32px;border-radius:30px;background-color:#1ed760;font-weight:700;color:#2941ab;}
+.main_con_title .title1{opacity:0;position:relative;left:0;transition:all 1000ms ease-in;}
+.main_con_title .title2{opacity:0;position:relative;left:150px;transition:all 1000ms ease-in .2s;}
+.main_con_title.active .title1{opacity:1;left:-2.5em;}
+.main_con_title.active .title2 {opacity:1;left:0;}
+.main_con .sub_text{opacity:0;position:relative;left:200px;font-size:18px;color:#1ed760;line-height:26px;transition:all 3000ms ease-in .3s;}
+.main_con_title.active + .sub_text{opacity:1;left:0;}
+.main_con .link{opacity:0;position:relative;padding:14px 32px;left:250px;border-radius:30px;background-color:#1ed760;font-weight:700;color:#2941ab;transition:all 3000ms ease-in .4s;}
+.main_con .link.active{opacity:1;left:0;}
 .main_con .link:hover{transform:scale(1.07);background-color:#2de26d;}
 
 /**************************************************** footer ****************************************************/
