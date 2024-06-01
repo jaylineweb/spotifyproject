@@ -15,6 +15,40 @@ body{font-size:16px;font-family:spotify-circular, Helvetica, Arial, sans-serif;}
 .intro .homework .homework_link:hover{background-color:#818181;}
 .intro .homework .homework_link:nth-child(2):hover{background-color:#1da222;}
 
+@media all and (max-width:1600px){
+    .intro .title{padding-top:calc(100vw * (247 / 1600));font-size:calc(100vw * (54 / 1600));line-height:calc(100vw * (88 / 1600));}
+    .intro .homework{margin-top:calc(100vw * (67 / 1600));}
+    .intro .homework .homework_link{width:calc(100vw * (454 / 1600));padding-top:calc(100vw * (10 / 1600));font-size:calc(100vw * (29 / 1600));}
+    .intro .homework .homework_link:nth-child(2){margin-top:calc(100vw * (22 / 1600));}
+}
+
+@media all and (max-width:1400px){
+    .intro .title{padding-top:calc(100vw * (247 / 1400));font-size:calc(100vw * (54 / 1400));line-height:calc(100vw * (88 / 1400));}
+    .intro .homework{margin-top:calc(100vw * (67 / 1400));}
+    .intro .homework .homework_link{width:calc(100vw * (454 / 1400));padding-top:calc(100vw * (10 / 1400));font-size:calc(100vw * (29 / 1400));}
+    .intro .homework .homework_link:nth-child(2){margin-top:calc(100vw * (22 / 1400));}
+}
+
+@media all and (max-width:1200px){
+    .intro .title{padding-top:calc(100vw * (247 / 1200));font-size:calc(100vw * (54 / 1200));line-height:calc(100vw * (88 / 1200));}
+    .intro .homework{margin-top:calc(100vw * (67 / 1200));}
+    .intro .homework .homework_link{width:calc(100vw * (454 / 1200));padding-top:calc(100vw * (10 / 1200));font-size:calc(100vw * (29 / 1200));}
+    .intro .homework .homework_link:nth-child(2){margin-top:calc(100vw * (22 / 1200));}
+}
+
+@media all and (max-width:1000px){
+    .intro .title{padding-top:calc(100vw * (247 / 1000));font-size:calc(100vw * (54 / 1000));line-height:calc(100vw * (88 / 1000));}
+    .intro .homework{margin-top:calc(100vw * (67 / 1000));}
+    .intro .homework .homework_link{width:calc(100vw * (454 / 1000));padding-top:calc(100vw * (10 / 1000));font-size:calc(100vw * (29 / 1000));}
+    .intro .homework .homework_link:nth-child(2){margin-top:calc(100vw * (22 / 1000));}
+}
+
+@media all and (max-width:640px){
+    .intro .title{padding-top:calc(100vw * (247 / 640));font-size:calc(100vw * (54 / 640));line-height:calc(100vw * (88 / 640));}
+    .intro .homework{margin-top:calc(100vw * (67 / 640));}
+    .intro .homework .homework_link{width:calc(100vw * (454 / 640));padding-top:calc(100vw * (10 / 640));font-size:calc(100vw * (29 / 640));}
+    .intro .homework .homework_link:nth-child(2){margin-top:calc(100vw * (22 / 640));}
+}
 /**************************************************** header ****************************************************/
 .header{display:flex;justify-content:space-around;height:80px;background-color:#000000;}
 
